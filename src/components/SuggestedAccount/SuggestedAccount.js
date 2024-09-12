@@ -6,9 +6,6 @@ import * as userService from '~/services/userService';
 const cx = classNames.bind(styles);
 
 function SuggestedAccount({ label }) {
-     const users = userService.getUsers().then((res) => console.log(res));
-     console.log(users);
-     users.map((result) => console.log(result));
      return (
           <div className={cx('wrapper')}>
                <p className={cx('label')}>{label}</p>
