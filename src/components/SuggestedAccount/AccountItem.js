@@ -10,7 +10,6 @@ import AccountPreview from './AccountPreview';
 const cx = classNames.bind(styles);
 
 function AccountItem({ data }) {
-     console.log(data);
      const renderPreview = (props) => (
           <div className={cx('preview')} tabIndex="-1" {...props}>
                <PopperWrapper>
